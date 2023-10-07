@@ -1,0 +1,11 @@
+Data description by client:
+
+Hey Marais, G. Christopher, here's the data for the pose tracking + port entry for your cool project! https://www.dropbox.com/sh/ed34f2yusdulf86/AAB7waxMCCZptYyA535cdJWOa?dl=0
+ 
+To get it to work, you would clone this repo and download the data/proc folder into the directory of the repo.
+ 
+https://github.com/padillacoreanolab/nose_poke_identifier
+ 
+In it there's two notebooks in the result folder where I synced up the timestamps of the nose pokes to the SLEAP pose tracking and copied some distance calculation code. I'd recommend using SLEAP to verify what's going on like this. Documentation is sparse so reach out if the notebooks or the data doesn't make sense. 
+ 
+I'm realizing that I forgot to include the port exit timestamps. This can be achieved by getting the timestamp that goes from 1 to 0 for the Spikegadgets ECU signal that's associated with the video you're looking at(dio_ECU_Din2 for camera 1 and dio_ECU_Din3 for camera 2 in 01_time_stamp_extract.ipynb ). There's some other potential nuances that comes with recording with 2 cameras from the same time that we can try to work out. Thanks so much for working on this!
