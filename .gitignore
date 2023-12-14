@@ -1,4 +1,8 @@
+# Ignore all .ipynb_checkpoints in any directory
+**/.ipynb_checkpoints/
 
-01_Raw_data/data.zip
+# Ignore __pycache__ in any directory
+**/__pycache__/
 
+# Ignore specific file in the 02_Clean_data directory
 02_Clean_data/02_dtw_distance_matrix.npy
