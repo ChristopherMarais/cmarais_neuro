@@ -1,6 +1,6 @@
 # Clean Data
 
-The data files in this folder contains all the data generated through the processing and analysis of the raw data. The data files are:
+The data files in this folder contains all the data generated through the processing and analysis of the raw data. The number with which each file starts corresponds to the script that was used to generate that file. The data files are:
 
 - `00_event_timestamps_arrays_list.pkl` - This file contains all the timestamps for each event. This .pkl file can be imported as a list of arrays where each array contains the index of wehre activity is detected. This lsit is the same length and order as the `00_recording_event_times_labels.csv` file and can be added as a column to ease processing in a dataframe format. This file has to be imported using the pickle package.
 
