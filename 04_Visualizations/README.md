@@ -1,4 +1,3 @@
-# Mouse Neuro data cleaning
-Christopher Marais
-PhD Forest Resources and Conservation
-A repo to clean mouse electrophysiology timeseries data.
+# Visualization
+
+Describe each plot and what it says about the data thus far
